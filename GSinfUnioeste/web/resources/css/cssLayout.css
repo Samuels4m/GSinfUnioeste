@@ -1,8 +1,8 @@
 
 #top {
     position: relative;
-    background-color: #036fab;
-    color: white;
+    background-color: #dddddd;
+    color: black;
     padding: 5px;
     margin: 0px 0px 10px 0px;
 }
@@ -29,7 +29,19 @@
 }
 
 .center_content {
-    position: relative;
+    position: absolute;
+    width: 95%;
+    height: 90%;
+
+    background:url('logo.png')no-repeat;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+.dentro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     background-color: #dddddd;
     padding: 5px;
 }
@@ -47,15 +59,15 @@
 }
 
 #top a:link, #top a:visited {
-  color: white;
-  font-weight : bold;
-  text-decoration: none;
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
 }
 
 #top a:link:hover, #top a:visited:hover  {
-  color: black;
-  font-weight : bold;
-  text-decoration : underline;
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
 }
 
 
